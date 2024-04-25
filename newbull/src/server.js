@@ -10,8 +10,8 @@ const app = express();
 const server = require('http').createServer(app);
 const io = require('socket.io')(server);
 
-// const port = process.env.PORT || 3000;
-const port = 3007;
+const port = process.env.PORT || 3000;
+// const port = 3007;
 
 app.use(cookieParser());
 // app.use(express.static('public'));
